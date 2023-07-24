@@ -1,4 +1,4 @@
-from apache2
+from httpd
 WORKDIR cd/var/www/html
 RUN touch index.html
 RUN echo "this is container" > index.html
